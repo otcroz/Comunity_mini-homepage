@@ -1,0 +1,104 @@
+/*방명록 컨테이너*/
+.guestbook_container{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top:0px;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    overflow: auto;
+}
+
+/*방명록 박스*/
+.guestbook_box{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*방명록 작성자*/
+.guestbook_sender{
+    flex: 0.1;
+
+    background-color:rgb(213, 203, 224);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(81, 63, 92);
+    font-size: 1.2em;
+}
+
+/*방명록 내용 박스*/
+.guestbook_contents_box{
+    flex: 0.2;
+
+    display: flex;
+}
+
+/*방명록 작성자 프로필 사진*/
+.guestbook_profile{
+    flex: 0 0 8rem;
+    height: 8rem;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+/*방명록 내용*/
+.guestbook_contents{
+    flex: 1 0 8rem;
+    height: 9rem;
+    
+    display: flex;
+    align-items: center;
+
+    font-size: 1.1em;
+    margin-top:10px;
+}
+
+/*방명록 프로필 사진 배경1*/
+.guestbook_background_1{
+    background-image: url("./방명록_배경1.jpg");
+    object-fit: fill;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+/*방명록 프로필 사진 배경2*/
+.guestbook_background_2{
+    background-image: url("./방명록_배경2.jpg");
+    object-fit: fill;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+/*방명록 프로필 사진 배경3*/
+.guestbook_background_3{
+    background-image: url("./방명록_배경3.jpg");
+    object-fit: fill;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+/*이미지 태그 적용*/
+.guestbook_profile > img{
+    width: 90%;
+}
+
+/*프로필 작성자 색깔*/
+.profile_name{
+    color:slateblue;
+}

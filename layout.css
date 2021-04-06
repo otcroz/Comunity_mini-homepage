@@ -1,0 +1,102 @@
+
+body{
+    background-color:rgb(165, 165, 179);
+    background-image:url('./pattern.png');
+    background-size: 80px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    font-size: 13px;
+    font-family: 'KyoboHand';
+}
+
+.bookcover{
+    position: relative;
+    width: 960px;
+    height: 660px;
+    margin: 50px auto;
+    background-color:rgb(166, 154, 196);
+    border: 1px solid #7D64AD;
+    border-radius: 10px;
+}
+
+.bookdot{
+    position:absolute;
+    border: 1px solid whitesmoke;
+    border-style: dashed;
+    border-width: 2px;
+    top:10px;
+    left:8px;
+    right: 8px;
+    bottom: 10px;
+    border-radius: 10px; 
+}
+
+.page{
+    position: absolute;
+    top:10px;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 12px;
+
+    display: flex;  
+}
+
+/*미니홈피 레이아웃*/
+.column1{
+    flex: 0.5;
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 13px;
+}
+
+.column2{
+    flex: 1.4;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.column3{
+    flex: 0.2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    flex:0.1;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'KyoboHand'
+}
+
+.row2{
+    position: relative;
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row3{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    border: 2px solid #e0e0e0;
+    background-color: white;
+    border-radius: 10px;
+}

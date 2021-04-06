@@ -1,0 +1,228 @@
+/*row1 방문자 카운트*/
+.count_visiter_color{
+    color:red;
+}
+/*column1_row2 프로필 레이아웃*/
+
+.profile1{
+    flex: 0.7;
+    margin: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile2{
+    flex: 1;
+    margin: 8px;
+
+    font-family: 'KyoboHand';
+    font-size: 13px;
+    color:#7D64AD;
+}
+
+.img{
+    width:180px;
+    height: 180px;
+
+    object-fit: cover;
+}
+
+.profile3{
+    flex: 0.5;
+    margin: 8px;
+    
+    font-family: 'KyoboHand';
+    font-size: 12px;
+}
+
+/*column1_row2 프로필 드롭다운*/
+.profile-dropdown {
+    flex: 0;
+    
+    border: 1px solid #d8d0dd;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;    
+  }
+
+  .dropdown-title{
+      color:rgb(138, 109, 170);
+      margin-left:3px;
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #593a6e;
+  }
+  
+  .dropdown-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%;
+  }
+  
+  .profile-dropdown:hover > .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content > a {
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(37, 14, 56, 0.2);
+    width: 100%;
+    padding: 6px;
+    color: rgb(110, 72, 136);
+    text-decoration: none;
+  }
+  
+  .dropdown-content > a:hover {
+    background-color: #e4d8e7;
+  }
+
+/*column2_row2 메인 부분 */
+
+.contents1{
+    flex: 0.6;
+    margin: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.contents2{
+    flex: 1.5;
+    margin: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mainname_color{
+    margin-left:5px; 
+    color:rgb(139, 61, 202);
+}
+
+/*contents1 최근 게시물  */
+.contents1_sub1{
+    flex: 0.4;
+    font-size: 17px;
+}
+
+.contents1_sub2{
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/*게시판, 사진첩 버튼*/
+
+.notice_fonts{
+    font-size: 12px;
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1.2px;
+}
+.photo_fonts{
+    font-size: 12.8px;
+    color: white;
+    background-color: rgb(204, 111, 83);
+    border-radius: 2px;
+    text-align: center;
+
+    padding: 1.2px;
+    margin-right:2px;  
+}
+
+/*contents1_sub2 카운트 부분*/
+.contents1_sub2_1{
+    flex: 0.5;
+}
+
+.contents1_sub2_2{
+    flex: 0.5;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*contents1_sub2_2 다이어리 사진첩, 게시판 방명록 */
+.count_contents{
+    flex: 0.1;
+    border-bottom: 2px dashed grey;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.count_contents_sub{
+    flex: 0.5;
+}
+
+.count_color{
+    color:lightskyblue;
+}
+
+/*contents2 미니룸 */
+.contents2_sub1{
+    flex: 0.15;
+
+    font-size: 17px;
+}
+
+.contents2_sub2{
+    flex: 1;
+}
+
+/*row3 메뉴*/
+
+.row3_transparent_box{
+    flex: 0.2;
+}
+
+.row3_menu{
+    flex: 0;
+
+    background-color: rgb(120, 93, 146);
+    border: 1px solid rgb(86, 59, 99);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+.row3_menu:hover{
+    background-color: rgb(218, 174, 154);
+}
+
+.row3_menu > a {
+    display: block;
+
+    color: white;
+    width: 100%;
+    padding: 3px;
+    text-decoration: none;
+  }

@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-size: 13px;
+    font-family: 'KyoboHand';
+}
+
+body{
+    background-color:rgb(165, 165, 179);
+    background-image:url('./pattern.png');
+    background-size: 80px;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bookcover{
+    position: relative;
+    width: 960px;
+    height: 660px;
+    margin: 50px auto;
+    background-color:rgb(166, 154, 196);
+    border: 1px solid #7D64AD;
+    border-radius: 10px;
+}
+
+.bookdot{
+    position:absolute;
+    border: 1px solid whitesmoke;
+    border-style: dashed;
+    border-width: 2px;
+    top:10px;
+    left:8px;
+    right: 8px;
+    bottom: 10px;
+    border-radius: 10px; 
+}
+
+.page{
+    position: absolute;
+    top:10px;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 12px;
+
+    display: flex;  
+}
+
+/*레이아웃*/
+.column1{
+    flex: 0.5;
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 13px;
+}
+
+.column2{
+    flex: 1.4;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.column3{
+    flex: 0.2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    flex:0.1;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'KyoboHand'
+}
+
+.row2{
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row3{
+    flex: 1;
+}
+
+.box{
+    border: 2px solid #e0e0e0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.row3_box{
+    border: 2px solid #adadad;
+    background-color: rgb(235, 235, 235);
+}
+
+/*column1_row2 프로필*/
+
+.profile1{
+    flex: 0.7;
+    margin: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile2{
+    flex: 1;
+    margin: 8px;
+
+    font-family: 'KyoboHand';
+    font-size: 13px;
+    color:#7D64AD;
+}
+
+.img{
+    width:180px;
+    height: 180px;
+
+    object-fit: cover;
+}
+
+.profile3{
+    flex: 0.5;
+    margin: 8px;
+    
+    font-family: 'KyoboHand';
+    font-size: 12px;
+}
+
+/*column2_row2 메인 부분 */
+
+.contents1{
+    flex: 0.6;
+    margin: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contents2{
+    flex: 1.5;
+    margin: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+/*contents1 최근 게시물 */
+.contents1_sub1{
+    flex: 0.4;
+    font-size: 17px;
+}
+
+.contents1_sub2{
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/*게시판, 사진첩 버튼*/
+
+.notice_fonts{
+    font-size: 12px;
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 2px;
+    text-align: center;
+    padding: 1.2px;
+}
+.photo_fonts{
+    font-size: 12.8px;
+    color: white;
+    background-color: rgb(204, 111, 83);
+    border-radius: 2px;
+    text-align: center;
+
+    padding: 1.2px;
+    margin-right:2px;  
+}
+
+/*contents1_sub2 카운트 부분*/
+.contents1_sub2_1{
+    flex: 0.5;
+}
+
+.contents1_sub2_2{
+    flex: 0.5;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*contents1_sub2_2 다이어리 사진첩, 게시판 방명록 */
+.count_contents{
+    flex: 0.1;
+    border-bottom: 2px dashed grey;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.count_contents_sub{
+    flex: 0.5;
+}
+
+/*contents2 미니룸 */
+.contents2_sub1{
+    flex: 0.15;
+
+    font-size: 17px;
+}
+
+.contents2_sub2{
+    flex: 1;
+}
+
+
+

@@ -1,0 +1,139 @@
+/*다이어리 캘린더*/
+.diary_calender{
+    flex: 0.15;
+    display: flex;
+
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #dba290;
+    margin: 7px;
+}
+
+/*캘린더*/
+.today{
+    flex: 0.2;
+    
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+
+.date_list{
+    flex: 1;
+    flex-wrap: wrap;
+    display:flex;
+    padding: 7px;
+}
+
+.date{
+    flex: 0 0 35px;
+
+    text-align: center;
+    cursor: pointer;
+    color:rgb(101, 96, 122);
+}
+
+.date_blue{
+    color: rgb(98, 69, 204);
+}
+
+.date_red{
+    color: rgb(223, 89, 89);
+}
+
+/*다이어리 박스 고정*/
+.diary_box{ 
+    flex: 1.2;
+    
+    position: relative;
+}
+
+/*다이어리 박스*/
+.diary_box_box{ 
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top:0px;
+    bottom:0;
+    left:0;
+    right:0;
+
+    overflow: auto;
+}
+
+/*다이어리 내용칸*/
+.diary_contents{
+    flex: 1;
+    flex-direction: column;
+
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #b595ca;
+    margin: 7px;
+}
+
+/*다이어리 작성 날짜*/
+.diary_date{
+    flex: 0.1;
+
+    text-align: left;
+    padding: 7px;
+    font-size: 1.2em;
+    color:rgb(125, 99, 160);
+}
+
+/*다이어리 내용*/
+.daily_daybook{
+    flex:1;
+
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*비밀일기 부분*/
+.secret_diary_box{
+    flex: 1;
+    justify-content: center;
+
+    text-align: center;
+    color: transparent;
+    background-color:transparent;
+    padding: 20px;
+    margin: 20px 150px;
+    cursor: pointer;
+    
+    transition: 500ms ease all;
+}
+
+.secret_diary_box:hover{
+    flex: 1;
+    justify-content: center;
+
+    text-align: center;
+    color: black;
+    background-color:rgb(126, 112, 144);
+    padding: 20px;
+    margin: 20px 150px;
+    border-radius: 3px;
+    
+}
+
+.secret_diary_box:active{
+    flex: 1;
+    justify-content: center;
+
+    text-align: center;
+    color: black;
+    background-color:rgb(235, 200, 192);
+    padding: 20px;
+    margin: 20px 150px;
+    border-radius: 3px;
+    
+}
+
+#secret_contents{
+    display: none;
+}
