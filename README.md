@@ -6,7 +6,7 @@
 > 개발 기간: 2021.3.23 ~ 2021.4.3 <br />
 
 ### Link
-> SoomSoom's Hompage: [미니홈피 바로가기](https://otcroz.github.io/comunity_mini-homepage/%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC.html) <br />
+> SoomSoom's Hompage: [미니홈피 바로가기](https://otcroz.github.io/comunity_mini-homepage/%EB%AF%B8%EB%8B%88%ED%99%88%ED%94%BC_%ED%99%88.html) <br />
 > 코뮤니티 3월 모각코 수료 후기: [수료 후기 바로가기](https://cafe.naver.com/codeuniv?iframe_url_utf8=%2FArticleRead.nhn%253Fclubid%3D30026525%2526articleid%3D21302)
 
 ### Features
